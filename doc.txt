@@ -1,0 +1,9 @@
+Here is just few informative steps to use the codes (the 1st one is very important because of the side effect) :
+
+1) put main_mpb.sh and do_k_unitcell.sh as executable (chmod a+x command)
+2) execute do_k_unitcell.sh 
+3) execute the matlab file main_berry_curv.m in the f_ev/ folder created
+4) for the plot of the Berry curvature, in the main.sh file, the "n" should match the number Nky (obviously the txt files output from the mmatlab should be in the folder plot_berry_curv)
+
+
+ps : there is still a dangerous side effect if there is an error : the *.ctl are deleted
